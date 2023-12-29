@@ -1,13 +1,52 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.login-page{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 202, 176);
+}
+
+.login-form{
+  padding-top: 4%;
+  background-image: url('https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bG9naW4lMjBiYWNrZ3JvdW5kJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 2px solid black;
+  border-radius: 2%;
+  height: 60vh;
+  width: 25%;
+}
+
+
+.field{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 2px;
+  font-size: 1.6rem;
+}
+
+.log-heading{
+  margin-left:2px;
+  font-size: 2rem;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  text-align: center;
+}
+
+.login-btn{
+  height: 50%;
+  width: 40% ;
+  font-size: 100%;
+  margin-top: 5%;
 }
